@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
 import { FaStar } from 'react-icons/fa';
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 import toCurrency from '../../../services/toCurrency';
 import truncateString from '../../../services/truncateString';
 

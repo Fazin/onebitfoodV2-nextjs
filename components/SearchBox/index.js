@@ -17,7 +17,7 @@ export default function SearchBox() {
             <Form.Control 
                 type='text'
                 placeholder='Buscar Restaurantes...'
-                classname='me-2'
+                className='me-2'
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
             />
