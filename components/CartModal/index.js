@@ -23,7 +23,7 @@ export default function CartModal(props) {
         ​ <Cart show={props.show} />
         {cart.products.length > 0 && (
           <div className="text-center pt-2">
-            <Link href="/orders">
+            <Link href="/orders/new">
               <Button variant="custom-red" className="text-white">
                 Finalizar pedido
               </Button>
