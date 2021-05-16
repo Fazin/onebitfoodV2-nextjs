@@ -20,7 +20,7 @@ export default function AddressModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
       backdrop="static"
-      keybord={false}
+      keybord={0}
     >
       <Modal.Header>
         <h5 className="fw-bold mt-2"> Endereço de entrega</h5>
