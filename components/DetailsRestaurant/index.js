@@ -1,12 +1,8 @@
 import Details from "./Details";
 import CategoryProducts from "./CategoryProducts";
-import { Alert } from 'react-bootstrap';
 
 export default function DetailsRestaurant(props) {
-
-    if(props.isError)
-        return <Alert variant="custom-red">Erro ao Carregar</Alert>
-    
+   
 
     return (
     <>
